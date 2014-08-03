@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#f1c101"
+            android:textColor="#fff"
+            android:text="@string/button_lights_on"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_lights_on"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:background="#2982b9"
+            android:text="Se fue"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_lights_off"
+            android:textSize="25sp" />
+
+        </LinearLayout>
+
+</LinearLayout>

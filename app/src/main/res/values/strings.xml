@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Se fue</string>
+    <string name="title_activity_maps">SeFue</string>
+    <string name="button_lights_on">Llegó</string>
+    <string name="button_lights_off">Se fue</string>
+
+</resources>
